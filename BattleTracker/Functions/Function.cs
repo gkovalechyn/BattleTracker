@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BattleTracker
-{
-    public class Class1
-    {
+namespace BattleTracker.Functions {
+    interface Function {
+        int execute(string[] args, StringBuilder output);
     }
 }
